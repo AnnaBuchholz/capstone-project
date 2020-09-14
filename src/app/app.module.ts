@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { InfoPageComponent } from './info-page/info-page.component';
+import { LearnMorePageComponent } from './learn-more-page/learn-more-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InfoPageComponent } from './info-page/info-page.component';
     HomePageComponent,
     NavbarComponent,
     SidebarComponent,
-    InfoPageComponent
+    InfoPageComponent,
+    LearnMorePageComponent
   ],
   imports: [
     BrowserModule,
