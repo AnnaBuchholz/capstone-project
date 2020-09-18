@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { LearnMorePageComponent } from './learn-more-page/learn-more-page.component';
+import { JokesPageComponent } from './jokes-page/jokes-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LearnMorePageComponent } from './learn-more-page/learn-more-page.compon
     NavbarComponent,
     SidebarComponent,
     InfoPageComponent,
-    LearnMorePageComponent
+    LearnMorePageComponent,
+    JokesPageComponent
   ],
   imports: [
     BrowserModule,
