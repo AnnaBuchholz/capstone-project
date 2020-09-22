@@ -9,6 +9,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { LearnMorePageComponent } from './learn-more-page/learn-more-page.component';
 import { JokesPageComponent } from './jokes-page/jokes-page.component';
+import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { JokesPageComponent } from './jokes-page/jokes-page.component';
     SidebarComponent,
     InfoPageComponent,
     LearnMorePageComponent,
-    JokesPageComponent
+    JokesPageComponent,
+    GeneralTimelinePageComponent
   ],
   imports: [
     BrowserModule,
