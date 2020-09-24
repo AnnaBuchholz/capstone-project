@@ -5,6 +5,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { JokesPageComponent } from './jokes-page/jokes-page.component';
 import { LearnMorePageComponent } from './learn-more-page/learn-more-page.component';
+import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component';
 
 const routes: Routes = [
   {path: '', component: HomePageComponent, children: [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'learn-more', component: LearnMorePageComponent},
   {path: 'jokes', component: JokesPageComponent},
   {path: 'general-timeline', component: GeneralTimelinePageComponent},
+  {path: 'math-wars', component: MathWarsPageComponent},
 ];
 
 @NgModule({
