@@ -11,6 +11,9 @@ import { LearnMorePageComponent } from './learn-more-page/learn-more-page.compon
 import { JokesPageComponent } from './jokes-page/jokes-page.component';
 import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
 import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button'; 
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component
     LearnMorePageComponent,
     JokesPageComponent,
     GeneralTimelinePageComponent,
-    MathWarsPageComponent
+    MathWarsPageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
