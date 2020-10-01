@@ -13,7 +13,8 @@ import { GeneralTimelinePageComponent } from './general-timeline-page/general-ti
 import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button'; 
+import { MatButtonModule } from '@angular/material/button';
+import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component'; 
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
     JokesPageComponent,
     GeneralTimelinePageComponent,
     MathWarsPageComponent,
+    GeneralMathematiciansPageComponent,
   ],
   imports: [
     BrowserModule,

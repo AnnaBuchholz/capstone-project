@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
 import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'jokes', component: JokesPageComponent},
   {path: 'general-timeline', component: GeneralTimelinePageComponent},
   {path: 'math-wars', component: MathWarsPageComponent},
+  {path: 'general-mathematicians', component: GeneralMathematiciansPageComponent},
 ];
 
 @NgModule({
