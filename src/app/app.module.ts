@@ -16,6 +16,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion'
 import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
+import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun-page.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { GeneralMathematiciansPageComponent } from './general-mathematicians-pag
     GeneralTimelinePageComponent,
     MathWarsPageComponent,
     GeneralMathematiciansPageComponent,
+    CalculatorFunPageComponent,
   ],
   imports: [
     BrowserModule,
