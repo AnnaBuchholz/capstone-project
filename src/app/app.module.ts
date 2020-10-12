@@ -14,9 +14,10 @@ import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import {MatExpansionModule} from '@angular/material/expansion'
+import { MatExpansionModule } from '@angular/material/expansion'
 import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
 import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun
     MathWarsPageComponent,
     GeneralMathematiciansPageComponent,
     CalculatorFunPageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
