@@ -1,0 +1,9 @@
+div.solid-border>h3{
+    border-bottom: solid;
+}
+
+mat-expansion-panel{
+    //border-bottom: outset;
+    border-bottom: thin solid;
+    border-bottom-color: #69f0ae;
+}
