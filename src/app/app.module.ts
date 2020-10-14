@@ -18,6 +18,7 @@ import { MatExpansionModule } from '@angular/material/expansion'
 import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
 import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FooterComponent } from './footer/footer.component';
     GeneralMathematiciansPageComponent,
     CalculatorFunPageComponent,
     FooterComponent,
+    JohnConwayPageComponent,
   ],
   imports: [
     BrowserModule,

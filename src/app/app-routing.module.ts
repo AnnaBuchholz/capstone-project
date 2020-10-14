@@ -5,6 +5,7 @@ import { GeneralMathematiciansPageComponent } from './general-mathematicians-pag
 import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
+import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.component';
 import { JokesPageComponent } from './jokes-page/jokes-page.component';
 import { LearnMorePageComponent } from './learn-more-page/learn-more-page.component';
 import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path: 'math-wars', component: MathWarsPageComponent},
   {path: 'general-mathematicians', component: GeneralMathematiciansPageComponent},
   {path: 'calculator-fun', component: CalculatorFunPageComponent},
+  {path: 'john-conway', component: JohnConwayPageComponent},
 ];
 
 @NgModule({
