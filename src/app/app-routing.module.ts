@@ -3,12 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun-page.component';
 import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
 import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
+import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.component';
 import { JokesPageComponent } from './jokes-page/jokes-page.component';
 import { LearnMorePageComponent } from './learn-more-page/learn-more-page.component';
 import { MathWarsPageComponent } from './math-wars-page/math-wars-page.component';
+import { NeilSloanePageComponent } from './neil-sloane-page/neil-sloane-page.component';
 
 const routes: Routes = [
   {path: '', component: HomePageComponent, children: [
@@ -22,6 +24,8 @@ const routes: Routes = [
   {path: 'general-mathematicians', component: GeneralMathematiciansPageComponent},
   {path: 'calculator-fun', component: CalculatorFunPageComponent},
   {path: 'john-conway', component: JohnConwayPageComponent},
+  {path: 'neil-sloane', component: NeilSloanePageComponent},
+  {path: 'georg-cantor', component: GeorgCantorPageComponent},
 ];
 
 @NgModule({

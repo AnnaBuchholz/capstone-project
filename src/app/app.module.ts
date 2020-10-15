@@ -19,6 +19,8 @@ import { GeneralMathematiciansPageComponent } from './general-mathematicians-pag
 import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.component';
+import { NeilSloanePageComponent } from './neil-sloane-page/neil-sloane-page.component';
+import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.com
     CalculatorFunPageComponent,
     FooterComponent,
     JohnConwayPageComponent,
+    NeilSloanePageComponent,
+    GeorgCantorPageComponent,
   ],
   imports: [
     BrowserModule,
