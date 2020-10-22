@@ -21,6 +21,8 @@ import { FooterComponent } from './footer/footer.component';
 import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.component';
 import { NeilSloanePageComponent } from './neil-sloane-page/neil-sloane-page.component';
 import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.component';
+import { CulinaryMathPageComponent } from './culinary-math-page/culinary-math-page.component';
+import { CreditsPageComponent } from './credits-page/credits-page.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.
     JohnConwayPageComponent,
     NeilSloanePageComponent,
     GeorgCantorPageComponent,
+    CulinaryMathPageComponent,
+    CreditsPageComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CalculatorFunPageComponent } from './calculator-fun-page/calculator-fun-page.component';
+import { CreditsPageComponent } from './credits-page/credits-page.component';
+import { CulinaryMathPageComponent } from './culinary-math-page/culinary-math-page.component';
 import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
 import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
 import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.component';
@@ -26,6 +28,8 @@ const routes: Routes = [
   {path: 'john-conway', component: JohnConwayPageComponent},
   {path: 'neil-sloane', component: NeilSloanePageComponent},
   {path: 'georg-cantor', component: GeorgCantorPageComponent},
+  {path: 'culinary-math', component: CulinaryMathPageComponent},
+  {path: 'credits', component: CreditsPageComponent}
 ];
 
 @NgModule({
