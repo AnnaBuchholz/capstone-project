@@ -12,11 +12,18 @@ mat-card{
 }
 
  h1{
-     border-bottom: thick dotted
+     border-bottom: thick dotted;
+     text-align: center;
  }
 
  ul{
      list-style-type: none;
+ }
+
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 // address {
