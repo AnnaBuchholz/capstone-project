@@ -16,6 +16,15 @@ mat-card{
      text-align: center;
  }
 
+ blockquote{
+    color: #69f0ae;
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    border-top: #69f0ae99 outset;
+    border-bottom: #69f0ae99 inset;
+}
+
  ul{
      list-style-type: none;
  }
