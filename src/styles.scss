@@ -31,8 +31,13 @@ mat-card{
 
  img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 0.5em;
+    margin-left: 2em;
+    //margin-left: auto;
+    //margin-right: auto;
  }
 
 // address {
