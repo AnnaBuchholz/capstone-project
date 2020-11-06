@@ -6,6 +6,7 @@ import { CulinaryMathPageComponent } from './culinary-math-page/culinary-math-pa
 import { GeneralMathematiciansPageComponent } from './general-mathematicians-page/general-mathematicians-page.component';
 import { GeneralTimelinePageComponent } from './general-timeline-page/general-timeline-page.component';
 import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.component';
+import { HolidayFunPageComponent } from './holiday-fun-page/holiday-fun-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { JohnConwayPageComponent } from './john-conway-page/john-conway-page.component';
@@ -29,7 +30,8 @@ const routes: Routes = [
   {path: 'neil-sloane', component: NeilSloanePageComponent},
   {path: 'georg-cantor', component: GeorgCantorPageComponent},
   {path: 'culinary-math', component: CulinaryMathPageComponent},
-  {path: 'credits', component: CreditsPageComponent}
+  {path: 'credits', component: CreditsPageComponent},
+  {path: 'holiday-fun', component: HolidayFunPageComponent},
 ];
 
 @NgModule({

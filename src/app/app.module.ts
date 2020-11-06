@@ -23,6 +23,7 @@ import { NeilSloanePageComponent } from './neil-sloane-page/neil-sloane-page.com
 import { GeorgCantorPageComponent } from './georg-cantor-page/georg-cantor-page.component';
 import { CulinaryMathPageComponent } from './culinary-math-page/culinary-math-page.component';
 import { CreditsPageComponent } from './credits-page/credits-page.component';
+import { HolidayFunPageComponent } from './holiday-fun-page/holiday-fun-page.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { CreditsPageComponent } from './credits-page/credits-page.component';
     GeorgCantorPageComponent,
     CulinaryMathPageComponent,
     CreditsPageComponent,
+    HolidayFunPageComponent,
   ],
   imports: [
     BrowserModule,
