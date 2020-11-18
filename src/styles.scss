@@ -29,6 +29,10 @@ mat-card{
      list-style-type: none;
  }
 
+ img{
+     max-width: 100%;
+ }
+
  div.real-image>img{
     display: block;
     float: right;
@@ -39,6 +43,23 @@ mat-card{
     max-height: 25em;
     //margin-left: auto;
     //margin-right: auto;
+ }
+
+figure{
+    display: inline-block;
+    //float: right;
+    margin-top: 1em;
+    //margin-bottom: 1.5em;
+    //margin-right: 0.5em;
+    //margin-left: 2em;
+    //max-height: 25em;
+    //margin: auto;
+}
+
+ figcaption{
+     text-align: center;
+     font-style: italic;
+     background-color: #000000a0;
  }
 
 // address {
