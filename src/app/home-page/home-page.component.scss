@@ -7,6 +7,14 @@ div.carousel-caption{
     background-color: #000000a0;
 }
 
+//This is for the images in the blocks
+img{
+  height: 30em;
+  margin: auto;
+  display: block;
+  border-radius: 1em;
+}
+
 figure{
     max-width: 100%;
 }
