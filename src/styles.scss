@@ -12,11 +12,57 @@ mat-card{
 }
 
  h1{
-     border-bottom: thick dotted
+     border-bottom: thick dotted;
+     text-align: center;
  }
+
+ blockquote{
+    color: #69f0ae;
+    font-size: 2.5em;
+    font-style: italic;
+    text-align: center;
+    border-top: #69f0ae99 outset;
+    border-bottom: #69f0ae99 inset;
+}
 
  ul{
      list-style-type: none;
+ }
+
+ img{
+     max-width: 100%;
+ }
+
+ div.real-image>img{
+    display: block;
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 0.5em;
+    margin-left: 2em;
+    max-height: 25em;
+    border-radius: 1em;
+    //margin-left: auto;
+    //margin-right: auto;
+ }
+
+figure{
+    display: inline-block;
+    //float: right;
+    margin-top: 1em;
+    //margin-bottom: 1.5em;
+    //margin-right: 0.5em;
+    //margin-left: 2em;
+    //max-height: 25em;
+    //margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ figcaption{
+     text-align: center;
+     font-style: italic;
+     background-color: #000000a0;
  }
 
 // address {
