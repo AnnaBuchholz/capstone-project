@@ -1,0 +1,8 @@
+.footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 261px;
+}
+ .main {
+     min-height: calc(100vh - 261px);
+ }
